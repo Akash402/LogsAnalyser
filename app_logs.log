@@ -1,0 +1,10 @@
+2026-03-31 14:00:01 INFO  [auth] User 'dev_admin' logged in from 192.168.1.10
+2026-03-31 14:02:15 ERROR [db] ConnectionPool: Max pool size (20) reached. Unable to acquire connection.
+2026-03-31 14:02:16 WARN  [web] Request to /api/v1/orders timed out after 5000ms.
+2026-03-31 14:05:00 CRITICAL [main] Uncaught Exception:
+Traceback (most recent call last):
+  File "app/process.py", line 42, in <module>
+    result = data['items'][0]['price'] / 0
+ZeroDivisionError: division by zero
+2026-03-31 14:10:45 INFO  [auth] 50 failed login attempts for user 'root' from IP 45.33.22.11
+2026-03-31 14:12:00 WARN  [system] Disk usage at 98% on /var/log
