@@ -1,0 +1,20 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Do not commit this!)
+venv/
+.venv/
+env/
+.env
+
+# PyCharm settings
+.idea/
+
+# Log files (Keep these local)
+*.log
+
+# OS generated files
+.DS_Store
+.Thumbs.db
